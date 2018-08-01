@@ -4,7 +4,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var sequelize = require('./model/db.js');
+var sequelize = require('./db/db.js');
 var app = express();
 
 // view engine setup

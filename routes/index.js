@@ -1,4 +1,6 @@
 import { Router } from 'express'
+import Sequelize from 'sequelize'
+
 const router = Router()
 
 router.get('/', function(req, res, next) {
